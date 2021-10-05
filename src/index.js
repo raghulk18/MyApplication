@@ -6,6 +6,7 @@ import Counter from "./components/counter";
 
 import App from "./App";
 import Search from "./search/search";
+import Application from "./cafe/app";
 
 
-reactDom.render(<Search/>, document.getElementById('root'))
+reactDom.render(<Application/>, document.getElementById('root'))
