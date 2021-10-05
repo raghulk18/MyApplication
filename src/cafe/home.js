@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Navbar from './navbar-left';
-import "./navbar-left.scss"; 
+import Navbar from './navbar';
+import "./navbar.scss"; 
 
 function Home() {
     return ( 
