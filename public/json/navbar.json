@@ -1,0 +1,36 @@
+[{
+        "id": "1",
+        "text": "Home",
+        "url": "/"
+    },
+    {
+        "id": "2",
+        "text": "Coffee",
+        "url": "/"
+    },
+    {
+        "id": "3",
+        "text": "Shop",
+        "url": "/"
+    },
+    {
+        "id": "4",
+        "text": "Wholesale",
+        "url": "/"
+    },
+    {
+        "id": "5",
+        "text": "Cafe's",
+        "url": "/"
+    },
+    {
+        "id": "6",
+        "text": "Media",
+        "url": "/contact-us"
+    },
+    {
+        "id": "6",
+        "text": "Partners",
+        "url": "/contact-us"
+    }
+]

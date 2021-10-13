@@ -1,0 +1,107 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+    max-height: 100%;
+}
+
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+    .image-gallery-svg {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.image-gallery-svg :focus {
+    outline: 0;
+}
+
+.image-gallery-icon {
+    background: rgba(0, 0, 0, .2);
+}
+
+.image-gallery-icon:hover {
+    color: #000;
+    background: #fff;
+}
+
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+    padding: 10px;
+}
+
+.banner-wrapper {
+    width: 100%;
+    height: 630px;
+    background-position: 50% 50%;
+    background-size: cover;
+    .banner-overlay {
+        width: 100%;
+        height: 100%;
+        padding-top: 1px;
+        padding-right: 35px;
+        padding-left: 35px;
+        background-color: rgba(0, 0, 0, .5);
+        text-align: center;
+    }
+    .banner-title {
+        margin-bottom: 0;
+        // padding: 34px 89px;
+        font-family: 'Old Growth', Arial, sans-serif;
+        color: #fff;
+        font-size: 55px;
+        line-height: 75px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 5rem;
+        h1{
+            color: #ebe9d4;
+            line-height: 4rem;
+            font-size: 3rem;
+            letter-spacing: .025em;
+            font-weight: 600;
+        }
+    }
+    .banner-desc {
+        // width: 35%;
+        color: #eee5db;
+        font-size: 16px;
+        word-break: break-all;
+        margin-top: 2rem;
+    }
+    .banner-link {
+        display: inline-block;
+        width: auto;
+        margin-top: 40px;
+        margin-right: 0;
+        padding: 5px 34px;
+        border-radius: 3px;
+        background-color: #2b2825;
+        -webkit-transition: background-color .3s, color .3s;
+        transition: background-color .3s, color .3s;
+        font-family: brandon-grotesque, sans-serif;
+        color: #fff;
+        font-size: 16px;
+        line-height: 40px;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+            background-color: #225d38;
+            color: #fff;
+        }
+    }
+}
+
+// banner image/text styles
+.banner-image{
+    display: flex;
+    height: calc(100vh - 66px);
+    div {
+        width: 50%;
+    }
+    .left-image{
+        // background-image: url('/images/cafe-logo-banner.PNG');
+    }
+}
