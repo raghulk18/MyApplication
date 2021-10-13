@@ -1,12 +1,13 @@
 import React from 'react';
 import Cart from './components/cart/cart';
+import Header from './components/header/header';
 import Navbar from './components/navbar/navbar';
 import AppRouter from './router';
 
 function Application() {
     return ( 
         <React.Fragment>
-            <div className="w-100 m-0 position-relative row">
+            {/* <div className="w-100 m-0 position-relative row">
                 <div className="col-3 p-0">
                     <Navbar />
                 </div> 
@@ -14,7 +15,9 @@ function Application() {
                     <AppRouter/>
                 </div> 
                 <Cart/>               
-            </div>
+            </div> */}
+            <Header/>
+            <AppRouter/>
         </React.Fragment>
      );
 }
