@@ -1,31 +1,36 @@
 [{
         "id": "1",
-        "text": "HOME",
+        "text": "Home",
         "url": "/"
     },
     {
         "id": "2",
-        "text": "OUR STORY",
+        "text": "Coffee",
         "url": "/"
     },
     {
         "id": "3",
-        "text": "MENU",
+        "text": "Shop",
         "url": "/"
     },
     {
         "id": "4",
-        "text": "ONLINE STORE",
+        "text": "Wholesale",
         "url": "/"
     },
     {
         "id": "5",
-        "text": "CAREERS",
+        "text": "Cafe's",
         "url": "/"
     },
     {
         "id": "6",
-        "text": "CONTACT US",
+        "text": "Media",
+        "url": "/contact-us"
+    },
+    {
+        "id": "6",
+        "text": "Partners",
         "url": "/contact-us"
     }
 ]

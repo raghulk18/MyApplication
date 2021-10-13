@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "text": "APPAREL",
+        "imgurl": "/images/apparel.jpg"
+    },
+    {
+        "id": "2",
+        "text": "COFFEE",
+        "imgurl": "/images/coffee-bag.jpg"
+    },
+    {
+        "id": "3",
+        "text": "COFFEE SYRUPS",
+        "imgurl": "/images/coffee-syrup.png"
+    },
+    {
+        "id": "4",
+        "text": "GIFTS & ACCESSORIES",
+        "imgurl": "/images/gifts.jpg"
+    }
+]

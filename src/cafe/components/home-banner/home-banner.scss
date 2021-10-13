@@ -45,28 +45,33 @@
     }
     .banner-title {
         margin-bottom: 0;
-        padding: 34px 89px;
+        // padding: 34px 89px;
         font-family: 'Old Growth', Arial, sans-serif;
         color: #fff;
         font-size: 55px;
         line-height: 75px;
         font-weight: 700;
         text-transform: uppercase;
+        margin-top: 5rem;
+        h1{
+            color: #ebe9d4;
+            line-height: 4rem;
+            font-size: 3rem;
+            letter-spacing: .025em;
+            font-weight: 600;
+        }
     }
     .banner-desc {
-        width: 35%;
-        /* margin-right: auto; */
-        /* margin-left: auto; */
-        /* padding-right: 55px; */
-        /* padding-left: 55px; */
+        // width: 35%;
         color: #eee5db;
         font-size: 16px;
         word-break: break-all;
+        margin-top: 2rem;
     }
     .banner-link {
         display: inline-block;
         width: auto;
-        margin-top: 80px;
+        margin-top: 40px;
         margin-right: 0;
         padding: 5px 34px;
         border-radius: 3px;
@@ -86,5 +91,17 @@
             background-color: #225d38;
             color: #fff;
         }
+    }
+}
+
+// banner image/text styles
+.banner-image{
+    display: flex;
+    height: calc(100vh - 66px);
+    div {
+        width: 50%;
+    }
+    .left-image{
+        // background-image: url('/images/cafe-logo-banner.PNG');
     }
 }
