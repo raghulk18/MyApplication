@@ -20,15 +20,18 @@ function Header() {
   }, []);
 
   return (
-    <div className="header-container">
+    <div className="header-container d-none d-lg-flex ">
       <div className="container header-content">
-        <div className="navbar-logo">
-          <a href="#">
-            <img src="/images/header-logo.PNG" alt="header-logo"/>
-          </a>
-        </div>
-
-        <div className="navbar-container">
+        <div className="row">
+          <div className="col-2">
+              <div className="navbar-logo">
+                <a href="#">
+                  <img src="/images/coffee-logo.svg" className="img-fluid" alt="header-logo"/>
+                </a>
+              </div>
+          </div>
+          <div className="col-8">
+          <div className="navbar-container">
           <ul>
             {navbarData &&
               navbarData.map((nav) => (
@@ -44,6 +47,8 @@ function Header() {
               ))}
           </ul>
         </div>
+          </div>
+        </div>        
       </div>
     </div>
   );
