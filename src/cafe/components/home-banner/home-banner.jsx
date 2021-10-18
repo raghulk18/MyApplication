@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './home-banner.scss';
 import ImageGallery from 'react-image-gallery';
+import { Link } from 'react-router-dom';
 const origin = window.location.origin;
 const images = [
     {
@@ -35,7 +36,7 @@ const images = [
                             <h1 dangerouslySetInnerHTML={{__html: item.title}}></h1>
                         </div>
                         <p className="banner-desc">{item.desc}</p>
-                        <a className="banner-link" href={item.linkURL}>{item.linkText}</a>
+                        <Link className="banner-link" to={item.linkURL}>{item.linkText}</Link>
                     </div>
                 
                 </div>
