@@ -22,7 +22,7 @@ function ProductCategory() {
     return ( 
         <div className="row collection-card">
             { categoryCard && categoryCard.map( categ => (
-                <div className="col-3 cards">
+                <div className="col-12 col-sm-12 col-md-3 cards">
                     <img src={categ.imgurl} alt={categ.text}/>
                     <span>{categ.text}</span>
                     <span>More info</span>
